@@ -110,7 +110,8 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-container,.w3-panel{padding:0.01em 16px}.w3-panel{margin-top:16px;margin-bottom:16px}
 .section{display: flex;flex-direction: row;flex-wrap: wrap;align-content: center;justify-content: space-around;align-items: stretch;}
 .w3-panel.header:before{content: '';background: url(/images/akuamedia.png);width: clamp(150px, 33vw, 397px);height: clamp(80px, 9vw, 170px);background-size: contain;background-repeat: no-repeat;background-position: center;margin: 0 auto;}
-.w3-panel.header p {text-align: center;}
+.w3-panel.header p {text-align:center;}
+section > p {width:100%;text-align:center;margin-top:-32px!important;}
 .w3-grid{display:grid}.w3-grid-padding{display:grid;gap:16px}.w3-flex{display:flex}
 .w3-text-center{text-align:center}.w3-text-bold,.w3-bold{font-weight:bold}.w3-text-italic,.w3-italic{font-style:italic}
 .w3-code,.w3-codespan{font-family:Consolas,"courier new";font-size:16px}
